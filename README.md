@@ -31,19 +31,20 @@ Instalar Virtualbox y alguna distribucion de Linux.
 Hacer el https://vim-adventures.com/ y sacar un screenshot del ultimo nivel.
 
 ### Evidencias:
-![Actividad 997 - Captura 1](NDJEW.png)
+![Actividad 997 - Captura 1](TAREA997.png)
+![Actividad 997 - Captura 2](14563.png)
 
 ---
 
 ## Actividad 996
 
 ### Descripción:
-![Actividad 996 - INSTRUCCIONES](image.png)
+![Actividad 996 - INSTRUCCIONES](ins996.png)
 
 ### Evidencias:
 Link del Video: https://asciinema.org/a/7w4xi978N2u6Tb0H
 
-![Actividad 996 - Captura](image-1.png)
+![Actividad 996 - Captura](TAREA996.png)
 
 ---
 
@@ -70,7 +71,7 @@ Subir el gif al canal de memes.
 ![Actividad 994 - Captura](TAREA994.png)
 
 ### GIF
-![Actividad 994 - GIF](202602101956.gif)
+![Actividad 994 - GIF](gif994.gif)
 
 ---
 
@@ -82,7 +83,7 @@ Realizar los 18 bash scripts que vienen en el PDF shell_linux.pdf y hacer un men
 
 ### Evidencias:
 
-![Actividad 993 - Captura](183623.png)
+![Actividad 993 - Captura](TAREA993.png)
 
 
 Codigo del Menu:
@@ -150,8 +151,8 @@ Codigo del Menu:
 Compartir una noticia sobre tecnologia/redes/seguridad. Compartir el link en el canal de ⁠noticias.
 
 ### Evidencias:
-![Actividad 992 - Captura 1](23232323.png)
-![Actividad 992 - Captura 2](3232323.png)
+![Actividad 992 - Captura 1](TAREA992.png)
+![Actividad 992 - Captura 2](TAREA992_2.png)
 
 ---
 
@@ -470,11 +471,16 @@ motd mensaje del día
 
 **24/02/2025**
 
-
+Examen bien perron.
 
 ---
 
+# SEGUNDO PARCIAL
 
 
+##  TAREA 989
+
+## Descripción:
 
 
+###  Capturas
