@@ -473,6 +473,14 @@ motd mensaje del día
 
 Examen bien perron.
 
+**26/02/2025**
+
+**03/03/2025**
+
+**05/05/2025**
+
+Se aclararon Dudas.
+
 ---
 
 # SEGUNDO PARCIAL
@@ -481,6 +489,111 @@ Examen bien perron.
 ##  TAREA 989
 
 ## Descripción:
+Realizar el modulo Linux Fundamentals de TryHackMe https://tryhackme.com/module/linux-fundamentals 
+
+###  Evidencias:
+
+---
+
+## TAREA 988
+
+### Descripción:
+Realizar el modulo de Windows Fundamentals de TryHackMe https://tryhackme.com/module/windows-fundamentals
+
+### Evidencias:
+
+##  TAREA 987
+
+## Descripción:
+Construir un jail/challenge.
+
+###  Evidencias:
 
 
-###  Capturas
+---
+
+##  TAREA 986
+
+## Descripción:
+Grabar un asciinema ejecutando su menu en Bash. https://asciinema.org/
+
+###  Evidencias:
+
+---
+
+##  TAREA 985
+
+## Descripción:
+Realizar en Python una herramienta que permita interactuar con el modulo "so".
+
+###  Evidencias:
+
+---
+
+##  TAREA 984
+
+## Descripción:
+Compilar Linux siguiendo la guia de https://www.linuxfromscratch.org/
+
+###  Evidencias:
+
+---
+
+##  TAREA 983
+
+## Descripción:
+Investigar sobre X11 en Linux, GNome, KDE y XFCE, poner la investigacion con Markdown en la wiki de su repositorio, o en un Markdown dentro de su repositorio. 
+
+###  Evidencias:
+
+---
+
+##  TAREA 982
+
+## Descripción:
+Realizar todos los niveles de Bandit https://overthewire.org/wargames/bandit/ , crear un archivo de texto con los comandos utilizados para resolver cada nivel. Subir el archivo.
+
+###  Evidencias:
+
+---
+
+##  TAREA 981
+
+## Descripción:
+Crear un menu en bash con los 18 scripts de la tarea 993
+
+###  Evidencias:
+
+---
+
+##  TAREA 980
+
+## Descripción:
+Realizar un script en bash que desglose las caracteristicas de un archivo
+
+Que explique los permisos de un archivo
+Que diga el tipo de archivo
+El usuario y grupo
+La ruta absoluta
+Tamaño en bytes
+
+Todas las caracteristicas que se muestran de un archivo al ejecutar el comando ls -al archivo.txt
+
+En este caso el script recibirá como parametro el nombre del archivo del que se desea el detalle.
+
+###  Evidencias:
+
+---
+
+##  TAREA 979
+
+## Descripción: 
+
+Crear un juego en bash, dinamica de juego abierta. Subir codigo a su repositorio y asciinema de la ejecucion de su juego. Comentar la tematica y dinamica de su juego para ser autorizado.
+
+Punto extra si es un juego didactico y no solo ludico. 
+
+
+###  Evidencias:
+
+---
