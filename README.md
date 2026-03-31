@@ -544,7 +544,58 @@ Compilar Linux siguiendo la guia de https://www.linuxfromscratch.org/
 ## Descripción:
 Investigar sobre X11 en Linux, GNome, KDE y XFCE, poner la investigacion con Markdown en la wiki de su repositorio, o en un Markdown dentro de su repositorio. 
 
-###  Evidencias:
+###  INVESTIGACION:
+
+En los sistemas operativos basados en Unix/Linux, la interfaz gráfica no está integrada directamente en el núcleo del sistema, sino que se construye a partir de diferentes capas independientes. Esta arquitectura modular permite separar el manejo del hardware gráfico de la experiencia visual del usuario.
+Dentro de este modelo, existen dos elementos clave: por un lado, el sistema gráfico que se encarga de la comunicación con la pantalla y los dispositivos de entrada, y por otro, los entornos de escritorio que proporcionan una interfaz completa e interactiva. Tecnologías como X11, junto con entornos como GNOME, KDE Plasma y Xfce, forman parte fundamental de esta estructura.
+
+# X11 (X Window System)
+El sistema X11 es una de las tecnologías más importantes en la historia de los sistemas Unix/Linux. Su función principal es proporcionar la infraestructura necesaria para que las aplicaciones gráficas puedan mostrarse en pantalla y recibir interacción del usuario.
+A diferencia de un entorno de escritorio, X11 no define la apariencia visual de la interfaz. Su responsabilidad se limita a gestionar el hardware gráfico y facilitar la comunicación entre aplicaciones y dispositivos como el teclado, el ratón y la pantalla.
+Uno de los aspectos más relevantes de X11 es su arquitectura cliente-servidor. En este modelo, el servidor X controla los recursos físicos del sistema, mientras que las aplicaciones actúan como clientes que solicitan dibujar elementos gráficos. Esta estructura permite incluso ejecutar aplicaciones en una máquina remota y visualizarlas en otra, lo cual fue una innovación clave en entornos de red.
+Puntos importantes:
+Es la base del sistema gráfico en Unix/Linux.
+No define el diseño visual, solo la funcionalidad gráfica.
+Permite ejecución remota de aplicaciones.
+Funciona bajo modelo cliente-servidor.
+
+# GNOME
+El entorno GNOME es uno de los escritorios más utilizados en Linux. Su objetivo principal es ofrecer una experiencia de usuario sencilla, moderna y coherente.
+GNOME integra todos los elementos necesarios para la interacción gráfica: ventanas, paneles, menús, aplicaciones básicas y herramientas de configuración. Su diseño se caracteriza por ser minimalista, reduciendo la complejidad para facilitar el uso, especialmente para usuarios nuevos.
+A diferencia de otros entornos, GNOME limita la personalización avanzada con el fin de mantener consistencia y facilidad de uso. Esto lo convierte en una opción ideal para quienes buscan una experiencia directa y sin configuraciones complejas.
+Puntos importantes:
+* Interfaz moderna y minimalista.
+* Fácil de usar.
+* Alta integración entre aplicaciones.
+* Mayor consumo de recursos.
+* Enfocado en simplicidad.
+
+# KDE (KDE Plasma)
+El entorno KDE Plasma representa una alternativa orientada a la flexibilidad y personalización. A diferencia de GNOME, KDE permite modificar prácticamente todos los aspectos visuales y funcionales del escritorio.
+Incluye una amplia variedad de herramientas y aplicaciones propias, lo que lo convierte en un entorno muy completo. Su apariencia suele ser más familiar para usuarios acostumbrados a sistemas como Windows, lo que facilita la transición.
+KDE logra un equilibrio entre rendimiento y funcionalidad, ofreciendo una experiencia visual avanzada sin sacrificar eficiencia en equipos modernos.
+Puntos importantes:
+Muy alto nivel de personalización.
+Interfaz atractiva y configurable.
+Gran cantidad de herramientas integradas.
+Buen rendimiento en hardware moderno.
+Enfocado en control total del usuario.
+
+# XFCE
+El entorno Xfce está diseñado con un enfoque en la ligereza y eficiencia. Su principal objetivo es ofrecer un entorno gráfico funcional que consuma pocos recursos del sistema.
+XFCE mantiene una interfaz tradicional, sin efectos visuales complejos, lo que contribuye a su rapidez y estabilidad. Es especialmente utilizado en equipos antiguos o con limitaciones de hardware, aunque también es preferido por usuarios que buscan simplicidad.
+A pesar de su sencillez, XFCE proporciona todas las herramientas necesarias para un uso completo del sistema.
+Puntos importantes:
+Bajo consumo de recursos.
+Alta estabilidad.
+Interfaz sencilla y tradicional.
+Menor cantidad de efectos visuales.
+Ideal para equipos con pocos recursos.
+
+# Conclusión
+El entorno gráfico en sistemas Linux se construye a partir de una estructura modular que permite gran flexibilidad. X11 actúa como la base que hace posible la interacción gráfica, mientras que GNOME, KDE y XFCE ofrecen distintas experiencias de usuario sobre esa base.
+Cada uno de estos entornos responde a necesidades específicas: GNOME prioriza la simplicidad, KDE la personalización y XFCE el rendimiento. Esta diversidad refleja uno de los principios fundamentales de Unix/Linux: la capacidad de adaptarse a distintos contextos y preferencias del usuario sin depender de una única solución.
+
 
 ---
 
