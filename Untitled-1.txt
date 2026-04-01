@@ -1,0 +1,3 @@
+. acflst*-
+
+cat flag_prisoner1 
