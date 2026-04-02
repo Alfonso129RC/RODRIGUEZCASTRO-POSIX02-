@@ -492,7 +492,7 @@ Se aclararon Dudas.
 Realizar el modulo Linux Fundamentals de TryHackMe https://tryhackme.com/module/linux-fundamentals 
 
 ###  Evidencias:
-
+![Actividad 989 - Captura 1](TAREA989.png)
 ---
 
 ## TAREA 988
@@ -501,6 +501,7 @@ Realizar el modulo Linux Fundamentals de TryHackMe https://tryhackme.com/module/
 Realizar el modulo de Windows Fundamentals de TryHackMe https://tryhackme.com/module/windows-fundamentals
 
 ### Evidencias:
+![Actividad 988 - Captura 1](TAREA988.png)
 
 ##  TAREA 987
 
