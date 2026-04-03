@@ -528,6 +528,7 @@ Grabar un asciinema ejecutando su menu en Bash. https://asciinema.org/
 Realizar en Python una herramienta que permita interactuar con el modulo "so".
 
 ###  Evidencias:
+![Actividad 985 - Captura 1](TAREA985.png)
 
 ---
 
