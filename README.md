@@ -509,7 +509,7 @@ Realizar el modulo de Windows Fundamentals de TryHackMe https://tryhackme.com/mo
 Construir un jail/challenge.
 
 ###  Evidencias:
-
+![Actividad 987 - Captura 1](TAREA987.png)
 
 ---
 
