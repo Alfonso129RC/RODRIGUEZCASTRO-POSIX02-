@@ -4,7 +4,7 @@ import subprocess
 import re
 import os
 
-def run_cmd(cmd, get_output=True, timeout=35; stop_on_error=True):
+def run_cmd(cmd, get_output=True, timeout=35, stop_on_error=True):
         "Run cmd logging input and output"
         output = ""
         try:
