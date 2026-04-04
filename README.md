@@ -516,9 +516,11 @@ Construir un jail/challenge.
 ##  TAREA 986
 
 ## Descripción:
-Grabar un asciinema ejecutando su menu en Bash. https://asciinema.org/
+Grabar un asciinema ejecutando su menu en Bash.
 
 ###  Evidencias:
+
+Mi asciinema: https://asciinema.org/a/AtkiCSlBjvGeOay2
 
 ---
 
@@ -697,7 +699,7 @@ En este caso el script recibirá como parametro el nombre del archivo del que se
 ###  Evidencias:
 ![Actividad 980 - Captura](TAREA980.png)
 
-Link del Video: 
+Link del Video: https://asciinema.org/a/IAfgdKglACozS718
 
 Codigo:
 
