@@ -616,6 +616,66 @@ Realizar todos los niveles de Bandit https://overthewire.org/wargames/bandit/ , 
 Crear un menu en bash con los 18 scripts de la tarea 993
 
 ###  Evidencias:
+![Actividad 981 - Captura](TAREA981.png)
+
+
+
+Codigo del Menu:
+
+`#!/bin/bash`
+
+`while true`
+`do`
+`clear`
+`echo "===== MENU SCRIPTS SHELL ====="`
+`echo "1) Hola mundo"`
+`echo "2) Hola con variable"`
+`echo "3) Variables"`
+`echo "4) Arrays"`
+`echo "5) Substring"`
+`echo "6) Operaciones aritméticas"`
+`echo "7) Operaciones lógicas"`
+`echo "8) If simple"`
+`echo "9) If else"`
+`echo "10) If elseif"`
+`echo "11) Test archivo"`
+`echo "12) Case"`
+`echo "13) For"`
+`echo "14) While"`
+`echo "15) Until"`
+`echo "16) Select"`
+`echo "17) Funciones"`
+`echo "18) Trap señales"`
+`echo "0) Salir"`
+`echo "Seleccione opción: "`
+`read opcion`
+
+`case $opcion in`
+    `1) ./script01_hola.sh ;;`
+    `2) ./script02_hola_variable.sh ;;`
+    `3) ./script03_variables.sh ;;`
+    `4) ./script04_arrays.sh ;;`
+    `5) ./script05_substring.sh ;;`
+    `6) ./script06_operaciones_arit.sh ;;`
+    `7) ./script07_operaciones_logicas.sh ;;`
+    `8) ./script08_if_simple.sh ;;`
+    `9) ./script09_if_else.sh ;;`
+    `10) ./script10_if_elseif.sh ;;`
+    `11) ./script11_test_archivo.sh ;;`
+    `12) ./script12_case.sh ;;`
+    `13) ./script13_for.sh ;;`
+    `14) ./script14_while.sh ;;`
+    `15) ./script15_until.sh ;;`
+   ` 16) ./script16_select.sh ;;`
+  `  17) ./script17_funciones.sh ;;`
+ `   18) ./script18_trap_senales.sh ;;`
+`    0) exit ;;`
+`    *) echo "Opción inválida" ;;`
+`esac`
+
+`echo ""`
+`read -p "Presiona Enter para continuar..."`
+`done`
 
 ---
 
@@ -635,6 +695,78 @@ Todas las caracteristicas que se muestran de un archivo al ejecutar el comando l
 En este caso el script recibirá como parametro el nombre del archivo del que se desea el detalle.
 
 ###  Evidencias:
+![Actividad 980 - Captura](TAREA980.png)
+
+Link del Video: 
+
+Codigo:
+
+#!/bin/bash
+
+if [ $# -ne 1 ]; then
+    echo "Uso: $0 nombre_archivo"
+    exit 1
+fi
+
+archivo="$1"
+
+if [ ! -e "$archivo" ]; then
+    echo "El archivo no existe."
+    exit 1
+fi
+
+nombre=$(basename "$archivo")
+ruta=$(realpath "$archivo")
+tipo=$(stat -c %F "$archivo")
+tamano=$(stat -c %s "$archivo")
+usuario=$(stat -c %U "$archivo")
+grupo=$(stat -c %G "$archivo")
+permisos=$(stat -c %A "$archivo")
+fecha=$(stat -c %y "$archivo" | cut -d' ' -f1)
+
+anio=$(echo $fecha | cut -d'-' -f1)
+mes=$(echo $fecha | cut -d'-' -f2)
+dia=$(echo $fecha | cut -d'-' -f3)
+
+case $mes in
+    01) mes_txt="enero";;
+    02) mes_txt="febrero";;
+    03) mes_txt="marzo";;
+    04) mes_txt="abril";;
+    05) mes_txt="mayo";;
+    06) mes_txt="junio";;
+    07) mes_txt="julio";;
+    08) mes_txt="agosto";;
+    09) mes_txt="septiembre";;
+    10) mes_txt="octubre";;
+    11) mes_txt="noviembre";;
+    12) mes_txt="diciembre";;
+esac
+
+traducir_permisos() {
+    local p=$1
+    local resultado=""
+
+    [[ ${p:0:1} == "r" ]] && resultado+="Lectura "
+    [[ ${p:1:1} == "w" ]] && resultado+="Escritura "
+    [[ ${p:2:1} == "x" ]] && resultado+="Ejecucion "
+
+    echo $resultado
+}
+
+user_perm=$(echo $permisos | cut -c2-4)
+group_perm=$(echo $permisos | cut -c5-7)
+other_perm=$(echo $permisos | cut -c8-10)
+
+echo "Nombre: $nombre"
+echo "Ruta absoluta: $ruta"
+echo "Tipo: $tipo"
+echo "Fecha de modificación: $dia de $mes_txt de $anio"
+echo "Tamaño en bytes: $tamano bytes"
+echo "Permisos:"
+echo "  User ($usuario): $(traducir_permisos $user_perm)"
+echo "  Group ($grupo): $(traducir_permisos $group_perm)"
+echo "  Others: $(traducir_permisos $other_perm)"
 
 ---
 
