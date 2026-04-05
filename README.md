@@ -782,5 +782,9 @@ Punto extra si es un juego didactico y no solo ludico.
 
 
 ###  Evidencias:
+![Actividad 979 - Captura 1](TAREA979.png)
+![Actividad 979 - Captura 2](TAREA979_2.png)
+
+Gameplay: https://asciinema.org/a/W5A9xAytif0w8ErA
 
 ---
