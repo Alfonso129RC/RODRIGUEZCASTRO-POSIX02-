@@ -788,3 +788,15 @@ Punto extra si es un juego didactico y no solo ludico.
 Gameplay: https://asciinema.org/a/W5A9xAytif0w8ErA
 
 ---
+
+##  EXTRA COMMAND CHALLENGE
+
+## Descripción: 
+
+Realizar todo los ejercicios de https://cmdchallenge.com
+
+###  Evidencias:
+![Actividad EXTRA - Captura 1](CommandC.png)
+
+
+---
