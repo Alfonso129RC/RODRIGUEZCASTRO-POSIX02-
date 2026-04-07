@@ -610,6 +610,10 @@ Realizar todos los niveles de Bandit https://overthewire.org/wargames/bandit/ , 
 
 ###  Evidencias:
 
+![Actividad 982 - Captura](TAREA_982cap.png) 
+
+TAREA__982.txt
+
 ---
 
 ##  TAREA 981
