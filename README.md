@@ -804,3 +804,37 @@ Realizar todo los ejercicios de https://cmdchallenge.com
 
 
 ---
+
+---
+
+# TERCER PARCIAL
+
+##  TAREA 978
+
+## Descripción:
+Clonar el repositorio https://github.com/tuxtter/diapositivas/ y agregar un logo en los slides, puede ser de sistemas operativos, lenguajes de programacion, frameworks, aplicacion o tecnologia.
+
+ 
+* Enviar su github ID en privado al profesor para ser agregado como colaborador
+* Clonas el repo
+* Creas un branch con el nombre del logo que agregaras y ahi haras tus cambios
+* Agregas la imagen en la carpeta logos
+* En el archivo logos.md agregar una seccion que contenga la imagen usando el tag <img> dentro de una seccion.
+* Envias un commit al repositorio principal con tus cambios
+* Creas un merge request para unir tus cambios con la rama principal
+* Le avisas al profesor para que aplique tus cambios a los slides
+
+Si todo está bien tu logo aparecerá en las diapositivas de logos aquí https://tuxtter.github.io/diapositivas/logos
+
+###  Evidencias:
+![Actividad 978 - Captura 1](TAREA978.png)
+---
+
+## TAREA 977
+
+### Descripción:
+De la seccion O.2 del PDF https://tldp.org/LDP/abs/abs-guide.pdf Seleccionar un ejercicio de cada nivel EASY/INTERMEDIATE/DIFFICULT y programarlos. 
+Crear un menú que ejecute cada uno.
+
+### Evidencias:
+![Actividad 977 - Captura 1]()
