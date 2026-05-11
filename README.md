@@ -837,4 +837,5 @@ De la seccion O.2 del PDF https://tldp.org/LDP/abs/abs-guide.pdf Seleccionar un 
 Crear un menú que ejecute cada uno.
 
 ### Evidencias:
-![Actividad 977 - Captura 1]()
+![Actividad 977 - Captura 1](TAREA977.png)
+![Actividad 977 - Captura 2](TAREA9771.png)
